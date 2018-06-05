@@ -1,0 +1,23 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.pagina-inicial{
+	width: 100%;
+	height: calc(100vh - 56px);
+	background: url(../images/background.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.texto-inicial{
+	margin:auto;
+	position: relative;
+	top: 45%;
+	transform: translate(0%,-50%);
+	background-color: rgba(255,255,255,0.5);
+	width: 60%;
+	font-size: 18px;
+	text-align: justify;
+	padding: 25px;
+}
