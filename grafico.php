@@ -8,7 +8,7 @@
 	require('header.html');
 	?>
 
-	<title>Questionário - Gráfico</title>
+	<title>Melhor Cidade - Gráfico</title>
 </head>
 <body>
 	<div class="container-fluid bg-light">

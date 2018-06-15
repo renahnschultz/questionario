@@ -11,10 +11,10 @@
 	require('header.html');
 	?>
 
-	<title>Questionário - Cadastro</title>
+	<title>Melhor Cidade - Cadastro</title>
 </head>
 <body>
-	<div class="container-fluid bg-light">
+	<div class="container-fluid bg-light background-city">
 		<div class="row">
 			<form class="col-md-6" id="form-login"  style="padding-top: 20px;padding-bottom: 20px;margin:auto;" method="POST" action="servicos/logar.php" target="_blank">
 				<div class="row">

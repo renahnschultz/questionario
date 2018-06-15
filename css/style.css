@@ -1,23 +1,31 @@
 body{
 	font-family: 'Roboto', sans-serif;
 }
-.pagina-inicial{
-	width: 100%;
-	height: calc(100vh - 56px);
-	background: url(../images/background.jpg) no-repeat center center fixed; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+.background-city{
+	background-image: url('../images/background.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: bottom;
+	min-height: calc(100vh - 56px);
 }
-.texto-inicial{
-	margin:auto;
+.texto-inicio{
+	width: 100%;
+	text-align: center;
+	color: #333;
+}
+.background-city .card .card-img-top{
+	height: 180px;
+}
+.imagem-user{
+	border-radius:50%;
+	width: 150px;
+	height: 150px;
 	position: relative;
-	top: 45%;
-	transform: translate(0%,-50%);
-	background-color: rgba(255,255,255,0.5);
-	width: 60%;
-	font-size: 18px;
-	text-align: justify;
-	padding: 25px;
+	margin: auto;
+}
+.imagem-cad{
+	width: 100%;
+	margin-top:10px;
+	margin-bottom:10px;
+	text-align: center;
 }

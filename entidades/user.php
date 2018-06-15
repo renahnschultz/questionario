@@ -6,6 +6,7 @@ class User{
 	public $email;
 	public $born;
 	public $password;
+	public $foto;
 
 	function __construct($firstName, $lastName, $email, $born, $password){
 		$this->name = $firstName." ".$lastName;

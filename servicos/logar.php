@@ -17,6 +17,7 @@ if ($user->num_rows > 0) {
 		$_SESSION['email_user'] = $row['email'];
 		$_SESSION['id_user'] = $row['id'];
 		$_SESSION['name_user'] = $row['name'];
+		$_SESSION['foto_user'] = $row['foto'];
 	}
 	echo "Login successfully.";
 }else{
